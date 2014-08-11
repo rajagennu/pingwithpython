@@ -8,5 +8,5 @@ def get_status_code(host, path="/"):
     except StandardError:
         return None
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     print get_status_code("google.com")
